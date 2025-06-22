@@ -1,1 +1,7 @@
-/* место для вашего кода */
+.header {
+    padding: 95px 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
