@@ -1,7 +1,36 @@
 .header {
     padding: 95px 50px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 148px 1fr;
     align-items: center;
-    justify-content:space-between;
+    
+}
 
+.header__menu-list {
+    display: flex;
+    gap: 31px;
+}
+
+.header__menu-item {
+    border-bottom: 1px solid black;
+    list-style: circle;
+}
+
+.header__menu-item_no-bullit {
+    border-bottom: none;
+    list-style: none;
+}
+
+.header__menu-link {
+    text-decoration: none;
+}
+
+.header__logo {
+    width: 148px;
+}
+
+.header__address {
+    max-width: 240px;
+    padding-right: 30px;
+    justify-self: end;
 }
